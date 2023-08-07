@@ -1,0 +1,164 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1F2937;
+    display: flex;
+    flex:1;
+    padding-bottom: 60px;
+
+}
+
+.section-2{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    padding:30px 30px 50px 90px;
+    justify-content: space-evenly;
+   
+}
+
+.description-title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+}
+
+.company-name{
+    color: #F9FAF8;
+    font-size:24px;
+    padding: 10px 20px;
+}
+
+.main-image{
+    width: 500px;
+    height:270px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+   
+}
+
+.nav-links{
+    display: flex;
+    margin:10px 20px;
+    color:#E5E7EB;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+nav{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 90px;
+}
+
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.but-top{
+    align-self: flex-start;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size:16px;
+    font-weight: bold;
+    padding:5px 20px;
+    border-radius: 10px;
+}
+
+.section-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px 90px;
+}
+
+.title-3{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+.info{
+    display: flex;
+    font-size: 18px;
+    flex: 1;
+    padding:20px 20px;
+}
+
+.sec-img{
+    width:100px;
+    height:70px;
+}
+
+.section-4{
+    background-color: #E5E7EB;
+    width: 200%;
+    margin:40px 0;
+    text-align: center;
+    padding: 40px 0;
+ }
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.writer{
+    text-indent: 1000px;
+    margin: 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-5{
+    background-color: #3882F6;
+    padding: 10px 50px;
+    color:#E5E7EB;
+    display: flex;
+    align-items: center;
+    gap:70px;
+    border-radius: 10px;
+}
+
+.section-5-text-title{
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 0;
+}
+
+.but-bottom{
+    width:80px;
+    height:30px;
+    border:2px solid #F9FAF8;
+    color:#E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px; 
+}
+
+
+
+
